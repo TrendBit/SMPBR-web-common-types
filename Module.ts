@@ -64,6 +64,22 @@ export const instanceToIndex = {
   "Instance_12" : 12
 } as const;
 
+export const indexToInstance = {
+    0: "Undefined",
+    1: "Instance_1",
+    2: "Instance_2",
+    3: "Instance_3",
+    4: "Instance_4",
+    5: "Instance_5",
+    6: "Instance_6",
+    7: "Instance_7",
+    8: "Instance_8",
+    9: "Instance_9",
+    10: "Instance_10",
+    11: "Instance_11",
+    12: "Instance_12"
+} as const;
+
 export type moduleTypesType = typeof moduleTypes[number]
 export type moduleInstancesType = typeof moduleInstances[number]
 
